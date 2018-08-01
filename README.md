@@ -1,4 +1,4 @@
-# GaugeSeekBar
+# GaugeSeekBar (fork from other peaple, not write by myself)
 
 GaugeSeekBar is an Android library for displaying round seek bar view.
 
