@@ -7,14 +7,15 @@ How to use
 
 ```gradle
 allprojects {
-    repositories {
-        maven { url 'http://repo.aws.10clouds.com:8081/artifactory/gradle-dev-local/' }
-    }
-}
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
 dependencies {
-    compile(group: 'tenclouds', name: 'gaugeseekbar', version: '1.0.1', ext: 'aar')
-}
+	        implementation 'com.github.OOOOOldZhu:GaugeSeekBar:1.0'
+	}
 ```
 
 Available XML attributes
