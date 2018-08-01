@@ -16,7 +16,7 @@ class GaugeSeekBar : View {
 
     private companion object {
         private const val DEFAULT_START_ANGLE_DEG = 30f
-        private const val DEFAULT_THUMB_RADIUS_DP = 11
+        private const val DEFAULT_THUMB_RADIUS_DP = 22
         private const val DEFAULT_TRACK_WIDTH_DP = 8
     }
 
