@@ -211,6 +211,7 @@ class GaugeSeekBar : View {
                     MotionEvent.ACTION_UP -> {
                         //手指抬起，归位到0.5的位置
                         setProgress(0.5f);
+                        progressChangedCallback.invoke(0.5f);
                     }
                 }
                 true
